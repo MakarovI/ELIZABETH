@@ -1,6 +1,9 @@
 # ELIZABETH
 ELIZABETH is a simple voice assistant created with Python and google speech recognition for Linux.
-ELIZABETH can run some terminal commands, open browser and standart linux utilities. She can also support a basic conversation.
+
+ELIZABETH can run some terminal commands, open browser and standart linux utilities. 
+
+She can also support a basic conversation.
 
 # REQUIREMENTS
 You have to install:
