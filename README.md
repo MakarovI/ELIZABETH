@@ -4,6 +4,9 @@ ELIZABETH can run some terminal commands, open browser and standart linux utilit
 
 # REQUIREMENTS
 You have to install:
+
 pip3 install SpeechRecognition
+
 pip3 install playsound
+
 pip3 install gTTS 
