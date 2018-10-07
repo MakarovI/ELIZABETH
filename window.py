@@ -29,7 +29,11 @@ class Window:
         self.microphone.pack()
         self.microphone.bind("<Button-1>", self.check)
         self.mainWindow.update()
-        self.voiceAssistant.say("Hello! My name is Elizabeth. I am voice assistant. Can I help you?")
+        try:
+            self.voiceAssistant.say("Hello! My name is Elizabeth. I am voice assistant. Can I help you?")
+        except:
+            print("ERROR!")
+            print("Check your INTERNET connection")
 
     def check(self, event):
         self.microphone["image"] = self.microphoneActiveImage
